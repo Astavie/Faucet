@@ -38,7 +38,9 @@ mixin profile(name, followers)
   article.p-4.bg-white
     h2.font-bold.text-xl
       a(href=`/user/${name.toLowerCase().split(' ').join('-')}` class='hover:underline')= name
-    p=`${followers} followers`
+    p
+      = `${followers} followers — `
+      a(href=`/user/null/dm/${name.toLowerCase().split(' ').join('-')}` class='hover:underline') Send Message
   .flex
     block
 
