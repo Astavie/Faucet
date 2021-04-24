@@ -1,0 +1,86 @@
+mixin article(title, author, date, sponsor)
+  article.p-4.bg-white
+    h2.font-bold.uppercase.text-xl
+      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='hover:underline')= title
+    p.text-sm.m-2
+      | By 
+      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+      |  — 
+      span.italic= date
+    block
+    p.italic.text-sm.m-2.mb-0= sponsor
+
+mixin status(likes, status, author, date)
+  article.p-4.bg-white.mt-4.flex
+    .pl-2.pr-4
+      p.text-center.mb-2= likes
+      include thumbsup.svg
+    div
+      p= status
+      p.text-sm.m-2.mb-0
+        | By 
+        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+        |  — 
+        span.italic= date
+
+mixin comment(likes, comment, author)
+  article.p-4.bg-white.mt-4.flex
+    .pl-2.pr-4
+      p.text-center.mb-2= likes
+      include thumbsup.svg
+    div
+      p= comment
+      p.text-sm.m-2.mb-0
+        | By 
+        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+
+mixin profile(name, followers)
+  article.p-4.bg-white
+    h2.font-bold.text-xl
+      a(href=`/user/${name.toLowerCase().split(' ').join('-')}` class='hover:underline')= name
+    p=`${followers} followers`
+  .flex
+    block
+
+mixin statuses
+  .flex-1.ml-2
+    article.p-4.bg-white.mt-4
+      h2.font-bold.text-xl Statuses 
+    block
+
+mixin articles
+  .flex-1.mr-2
+    article.p-4.bg-white.mt-4
+      h2.font-bold.text-xl Articles 
+    block
+
+mixin articlepreview(title, author, date)
+  article.p-4.bg-white.mt-4
+    h2.font-bold.uppercase.text-xl
+      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='hover:underline')= title
+    p.text-sm.m-2.mb-0
+      | By 
+      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+      |  — 
+      span.italic= date
+
+doctype html
+html
+  head
+    title Faucet
+    link(rel='stylesheet', type='text/css', href='/styles/style.css')
+body.bg-gray-200.relative.min-h-screen
+  header
+    block header
+      .w-full.bg-green-600.text-white.p-4
+        h1.font-bold.text-4xl.float-left.mr-2
+          a(href="/" class="hover:underline") Faucet
+        include faucet.svg
+        p News by the people
+  main
+    .m-8.mb-0.pb-16
+        block content
+  footer
+    block footer
+      .w-full.bg-green-600.text-white.absolute.bottom-0
+        p.text-center.p-1 Copyright © z 2020-2021

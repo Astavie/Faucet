@@ -1,0 +1,9 @@
+extends /includes/template.pug
+
+block content
+  +profile('business-daily', 67)
+    +articles
+      +articlepreview('Foul Play Suspected in Senator Death', 'business-daily', 'April 24th')
+      +articlepreview('Senator Found Dead', 'business-daily', 'April 22nd')
+    +statuses
+      +status(182, 'The Business Daily, for all your trustworthy news!', 'business-daily', 'Februari 29th')
