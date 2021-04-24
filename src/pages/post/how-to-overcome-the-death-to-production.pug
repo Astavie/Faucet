@@ -1,0 +1,15 @@
+extends /includes/template.pug
+
+block content
+  +article('How to Overcome the Death to Production', 'deathtoproduction', 'December 24th 2020', 'This article was inspired by the unproductiveness of Christmas.')
+    p This article will be kept short, as each minute spent writing is a minute that could be better spent working. This is step one.
+    p Step two, keep up to date on effective working strategies. For instance, instead of brushing your teeth twice a day, it is much more efficient to have a simple hour-long surgery to replace all your teeth with dentures. Did you know the average person wastes 155,490 minutes of their life brushing their teeth? This way, you would have 155,430 extra minutes dedicated to excelling in the workplace.
+    p Step three, support Jane Doe’s submitted policy to ban social media use in the workplace.
+    p Step four, take any username suggesting laziness and flip the meaning.
+    p Thank you for reading,
+    p deathtoproduction
+  +comment(1, "I support this article.", 'jane-doe')
+  .ml-16
+    +comment(0, "I support you.", 'deathtoproduction')
+    .ml-16
+        +comment(0, "Get back to work.", 'jane-doe')
