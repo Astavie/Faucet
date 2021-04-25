@@ -1,4 +1,6 @@
-/custom/*               /404.html                   404!
+/custom/*               /custom/404.html            404!
 
 /user/:p1/dm/:p2        /custom/emptymessage.html   200
 /user/:p1/notifications /custom/notifications.html  200
+
+/*                      /custom/404.html            404
