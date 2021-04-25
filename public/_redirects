@@ -1,6 +1,5 @@
 # Custom pages
-# Custom
-/custom/*               /custom/404.html            404!
+/custom/* /custom/404.html 404!
 
 # DMs
 /user/marcels-diner/dm/jane-doe /user/jane-doe/dm/marcels-diner 200
