@@ -9,10 +9,10 @@ mixin middleblock
 mixin article(title, author, date, sponsor)
   article.p-4.bg-white
     h2.font-bold.uppercase.text-xl
-      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='hover:underline')= title
+      =title
     p.text-sm.m-2
       | By 
-      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
       |  — 
       span.italic= date
     block
@@ -27,7 +27,7 @@ mixin status(likes, status, author, date)
       p= status
       p.text-sm.m-2.mb-0
         | By 
-        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
         |  — 
         span.italic= date
 
@@ -40,15 +40,15 @@ mixin comment(likes, comment, author)
       p= comment
       p.text-sm.m-2.mb-0
         | By 
-        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+        a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
 
 mixin profile(name, followers)
   article.p-4.bg-white
     h2.font-bold.text-xl
-      a(href=`/user/${name.toLowerCase().split(' ').join('-')}` class='hover:underline')= name
+      a(href=`/user/${name.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline')= name
     p
       = `${followers} followers — `
-      a(href=`/user/null/dm/${name.toLowerCase().split(' ').join('-')}` class='hover:underline') Send Message
+      a(href=`/user/null/dm/${name.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline') Send Message
   .flex
     block
 
@@ -67,10 +67,10 @@ mixin articles
 mixin articlepreview(title, author, date)
   article.p-4.bg-white.mt-4
     h2.font-bold.uppercase.text-xl
-      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='hover:underline')= title
+      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='underline hover:no-underline')= title
     p.text-sm.m-2.mb-0
       | By 
-      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
       |  — 
       span.italic= date
 
@@ -85,7 +85,7 @@ body.bg-gray-200.relative.min-h-screen
       .w-full.bg-green-600.text-white.p-4.flex
         .flex-initial
           h1.font-bold.text-4xl
-            a(href="/" class="hover:underline") Faucet News
+            a(href="/") Faucet News
           p News by the people
         .flex-initial
           include faucet.svg
