@@ -1,12 +1,4 @@
-extends /includes/template.pug
+extends /includes/messages.pug
 
-block content
-  +topblock 
-    h2.font-bold.text-xl Message History
-  +middleblock
-    p.italic There seems to be nothing here.
-  +middleblock
-    p
-      | Please 
-      a(href="/login.html" class="hover:underline font-bold") login
-      |  to send messages.
+block messages
+  p.italic There seems to be nothing here.

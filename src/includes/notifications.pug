@@ -1,0 +1,9 @@
+extends /includes/template.pug
+
+block content
+  +topblock 
+    h2.font-bold.text-xl Notifications
+    p These are the posts and statuses of people you follow.
+  +articlepreview('Leaky Faucet', 'null', 'April 26th')
+  block notifications
+  // +status(163, 'Website launched!', 'z', 'Demember 1st 2020')
