@@ -1,1 +1,2 @@
 /user/:p1/dm/:p2 /emptymessage.html 200
+/user/:p1/notifications /notifications.html 200
