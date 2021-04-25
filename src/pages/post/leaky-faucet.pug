@@ -4,18 +4,13 @@ block content
   +article('Leaky Faucet', 'null', 'April 26th')
     p I don't know how long this post will stay up, so I'll have to be quick. Faucet News just restricted the access people have to write articles, so I had to hack into the web host to put this article up. Apparently this site isn't very secure, haha, dms are public to everyone if you know the correct URL.
     p.mt-4.mb-4 Anyway, a senator by the name of Jane Doe was murdered last week, and at the same time a lot of people started showing up on this small website. I'm not sure how you all got here, but I need your help. Jane Doe wasn't that well-liked, but a murder is a murder and we need to figure out who did it. The police are at a loss.
-    p This is where you all come in. I suspect this website has all the information you need to figure this all out. We need to know two things:
-    p 1. Who did it?
-    p 2. Where can they be found?
-    p.mt-4.mb-4 Once you've figured it all out, please fill in the details in the form below and submit it.
+    p.mb-4 This is where you all come in. I suspect this website has all the information you need to figure out who did it. Once you do, please fill in the details in the form below and submit it.
     form(action="/submit" method="get")
       label(for="who").block.text-sm.font-bold.mb-1 The name or alias of the person who did it.
       input#who(name="who").shadow.appearance-none.border.rounded.mb-2.max-w-full.w-96.py-1.px-2
-      label(for="how").block.text-sm.font-bold.mb-1 The URL of the webpage that makes it clear who did it.
-      input#how(name="how").shadow.appearance-none.border.rounded.mb-2.max-w-full.w-96.py-1.px-2
-      label(for="where").block.text-sm.font-bold.mb-1 The URL of the webpage that makes it clear where they can be found.
-      input#where(name="where").shadow.appearance-none.border.rounded.mb-4.max-w-full.w-96.py-1.px-2
+      label(for="url").block.text-sm.font-bold.mb-1 The URL of the webpage that makes it clear who did it.
+      input#how(name="url").shadow.appearance-none.border.rounded.mb-4.max-w-full.w-96.py-1.px-2
       input(type="submit", value="Submit" class="cursor-pointer hover:bg-green-500 focus:outline-none.focus:shadow-outline").block.bg-green-600.text-white.font-bold.rounded.py-1.px-4
   +comment(2, "Oh so that's what all the activity lately is about! Also, I really don't like the fact ppl will be able to see my dms.", 'supraman')
-  +comment(0, "i think the business-daily account had some articles on the murder", 'killjoy')
+  +comment(0, "i think the industry-daily account had some articles on the murder", 'killjoy')
   +comment(0, "Ah, so this is why I couldn't post an article of my own about the tragic passing of Jane Doe!", 'marcels-diner')

@@ -8,10 +8,18 @@
 
 /user/verysus/dm/supraman                   /user/supraman/dm/verysus                   200
 /user/colddrinkblue/dm/colddrinkred         /user/colddrinkred/dm/colddrinkblue         200
-/user/colddrinkblue/dm/business-daily       /user/business-daily/dm/colddrinkblue       200
+/user/colddrinkblue/dm/industry-daily       /user/industry-daily/dm/colddrinkblue       200
 /user/marcels-diner/dm/headshelf            /user/headshelf/dm/marcels-diner            200
 /user/deathtoproduction/dm/deathtopeepee    /user/deathtopeepee/dm/deathtoproduction    200
 /user/notcelibate/dm/killjoy                /user/killjoy/dm/notcelibate                200
+
+# Ending
+/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z    /custom/zending 200
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z            /custom/zending 200
+/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z/   /custom/zending 200
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z/           /custom/zending 200
+
+/submit /custom/noending 200
 
 # Other
 /user/:p1/notifications /custom/notifications.html  200

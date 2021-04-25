@@ -1,0 +1,16 @@
+extends /includes/template.pug
+
+block header
+  .w-full.bg-green-600.text-white.p-4.flex
+    .flex-initial
+      h1.font-bold.text-4xl
+        a(href="/" class="hover:underline") Faucet News
+      p News by Industry Daily
+    .flex-initial
+      include /includes/faucet.svg
+block content
+  +article('Case Closed', 'industry-daily', 'Today', 'This article was sponsored by ColdDrinkPurple.')
+    p Bad ending
+block footer
+  .w-full.bg-green-600.text-white.absolute.bottom-0
+    p.text-center.p-1 Copyright © Industry Daily 2020-2021
