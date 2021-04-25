@@ -13,7 +13,7 @@ mixin article(title, author, date, sponsor)
 mixin status(likes, status, author, date)
   article.p-4.bg-white.mt-4.flex
     .pl-2.pr-4
-      p.text-center.mb-2= likes
+      p.text-center.mb-1= likes
       include thumbsup.svg
     div
       p= status
@@ -26,7 +26,7 @@ mixin status(likes, status, author, date)
 mixin comment(likes, comment, author)
   article.p-4.bg-white.mt-4.flex
     .pl-2.pr-4
-      p.text-center.mb-2= likes
+      p.text-center.mb-1= likes
       include thumbsup.svg
     div
       p= comment
@@ -75,10 +75,11 @@ body.bg-gray-200.relative.min-h-screen
   header
     block header
       .w-full.bg-green-600.text-white.p-4
-        h1.font-bold.text-4xl.float-left.mr-2
-          a(href="/" class="hover:underline") Faucet News
+        .float-left
+          h1.font-bold.text-4xl
+            a(href="/" class="hover:underline") Faucet News
+          p News by the people
         include faucet.svg
-        p News by the people
   main
     .m-8.mb-0.pb-16
         block content
