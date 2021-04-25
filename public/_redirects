@@ -1,14 +1,1 @@
-/user/null/dm/* /emptymessage.html 200
-/user/business-daily/dm/* /emptymessage.html 200
-/user/colddrinkblue/dm/* /emptymessage.html 200
-/user/colddrinkred/dm/* /emptymessage.html 200
-/user/deathtopeepee/dm/* /emptymessage.html 200
-/user/deathtoproduction/dm/* /emptymessage.html 200
-/user/jane-doe/dm/* /emptymessage.html 200
-/user/killjoy/dm/* /emptymessage.html 200
-/user/marcels-diner/dm/* /emptymessage.html 200
-/user/notcelibate/dm/* /emptymessage.html 200
-/user/pm-me-dogs/dm/* /emptymessage.html 200
-/user/supraman/dm/* /emptymessage.html 200
-/user/verysus/dm/* /emptymessage.html 200
-/user/z/dm/* /emptymessage.html 200
+/user/:p1/dm/:p2 /emptymessage.html 200
