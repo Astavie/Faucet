@@ -1,9 +1,6 @@
 # Custom pages
 /custom/*               /custom/404.html            404!
-
-/user/:p1/dm/:p2        /custom/emptymessage.html   200
 /user/:p1/notifications /custom/notifications.html  200
-
 /*                      /custom/404.html            404
 
 # DMs
@@ -16,3 +13,5 @@
 /user/marcels-diner/dm/headshelf            /user/headshelf/dm/marcels-diner            200
 /user/deathtoproduction/dm/deathtopeepee    /user/deathtopeepee/dm/deathtoproduction    200
 /user/notcelibate/dm/killjoy                /user/killjoy/dm/notcelibate                200
+
+/user/:p1/dm/:p2                /custom/emptymessage.html   200
