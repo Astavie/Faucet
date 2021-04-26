@@ -38,6 +38,14 @@ mixin deletednext(author, date)
     |  — 
     span.italic= date
 
+mixin image(url, author, date)
+  img(src=url alt="Cute dog").max-w-xl.w-full
+  p.text-sm.m-2.mb-0
+    | By 
+    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+    |  — 
+    span.italic= date
+
 block content
   +topblock 
     h2.font-bold.text-xl Message History
