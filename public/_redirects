@@ -2,10 +2,10 @@
 /custom/* /custom/404.html 404!
 
 # DMs
-/user/marcels-diner/dm/pp-jane-doe         /user/pp-jane-doe/dm/marcels-diner         200
+/user/marcels-diner/dm/pp-jane-doe      /user/pp-jane-doe/dm/marcels-diner      200
 /user/marcels-diner/dm/z                /user/z/dm/marcels-diner                200
 /user/z/dm/headshelf                    /user/headshelf/dm/z                    200
-/user/pp-jane-doe/dm/chuck-mackerel        /user/chuck-mackerel/dm/pp-jane-doe        200
+/user/pp-jane-doe/dm/chuck-mackerel     /user/chuck-mackerel/dm/pp-jane-doe     200
 /user/colddrinkpurple/dm/chuck-mackerel /user/chuck-mackerel/dm/colddrinkpurple 200
 
 /user/verysus/dm/supraman                   /user/supraman/dm/verysus                   200
