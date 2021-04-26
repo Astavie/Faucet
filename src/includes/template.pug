@@ -12,7 +12,7 @@ mixin article(title, author, date, sponsor)
       =title
     p.text-sm.m-2
       | By 
-      a(href=`/user/${author.toLowerCase().replace(',', '').split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
       |  — 
       span.italic= date
     block
@@ -66,7 +66,7 @@ mixin articles
 mixin articlepreview(title, author, date)
   article.p-4.bg-white.mt-4
     h2.font-bold.uppercase.text-xl
-      a(href=`/post/${title.toLowerCase().split(' ').join('-')}.html` class='underline hover:no-underline')= title
+      a(href=`/post/${title.toLowerCase().replace(',', '').split(' ').join('-')}.html` class='underline hover:no-underline')= title
     p.text-sm.m-2.mb-0
       | By 
       a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
