@@ -44,8 +44,7 @@ mixin comment(likes, comment, author)
 
 mixin profile(name, followers)
   article.p-4.bg-white
-    h2.font-bold.text-xl
-      a(href=`/user/${name.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline')= name
+    h2.font-bold.text-xl= name
     p
       = `${followers} followers — `
       a(href=`/user/null/dm/${name.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline') Send Message
@@ -78,6 +77,7 @@ doctype html
 html
   head
     title Faucet News
+    link(rel='icon', type='image/x-icon', href='/icon.png')
     link(rel='stylesheet', type='text/css', href='/styles/style.css')
 body.bg-gray-200.relative.min-h-screen
   header
