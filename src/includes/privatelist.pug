@@ -1,0 +1,26 @@
+extends /includes/template.pug
+
+mixin firstmessage(me, author, date)
+  +middleblock
+    p
+      a(href=`/user/${me.toLowerCase().split(' ').join('-')}/dm/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+      |  — 
+      span.italic= date
+
+mixin message(me, author, date)
+  +middleblock
+    p
+      a(href=`/user/${me.toLowerCase().split(' ').join('-')}/dm/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+      |  — 
+      span.italic= date
+
+block content
+  +topblock 
+    h2.font-bold.text-xl Private Messages
+    p The list of people you've sent messages to thus far.
+  block messages
+  +middleblock
+    p
+      | Please 
+      a(href="/login.html" class="underline hover:no-underline font-bold") login
+      |  to send messages.

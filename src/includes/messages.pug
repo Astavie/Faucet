@@ -4,7 +4,7 @@ mixin firstmessage(comment, author, date)
   p= comment
   p.text-sm.m-2.mb-0
     | By 
-    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
     |  — 
     span.italic= date
 
@@ -12,7 +12,7 @@ mixin message(comment, author, date)
   p.mt-4= comment
   p.text-sm.m-2.mb-0
     | By 
-    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='hover:underline').font-bold= author
+    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
     |  — 
     span.italic= date
 
@@ -24,5 +24,5 @@ block content
   +middleblock
     p
       | Please 
-      a(href="/login.html" class="hover:underline font-bold") login
+      a(href="/login.html" class="underline hover:no-underline font-bold") login
       |  to send messages.
