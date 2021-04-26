@@ -12,7 +12,7 @@ mixin article(title, author, date, sponsor)
       =title
     p.text-sm.m-2
       | By 
-      a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+      a(href=`/user/${author.toLowerCase().replace(',', '').split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
       |  — 
       span.italic= date
     block
