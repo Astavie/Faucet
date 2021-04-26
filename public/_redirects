@@ -15,19 +15,51 @@
 /user/deathtoproduction/dm/deathtopeepee    /user/deathtopeepee/dm/deathtoproduction    200
 /user/notcelibate/dm/killjoy                /user/killjoy/dm/notcelibate                200
 
-# Ending
-/submit who=Z url=:url                                                      how=:how /submit?who=z&url=:url&how=:how
+# Ending z
+/submit who=Z url=:url how=:how /submit?who=z&url=:url&how=:how
 
 /submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z    how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
 /submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z/   how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z/           how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=faucetnews.netlify.app/user/z/dm/marcels-diner            how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner    how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner/   how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=faucetnews.netlify.app/user/z/dm/marcels-diner/           how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
 
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/headshelf/dm/z     /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/headshelf/dm/z/    /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/headshelf/dm/z/            /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/z/dm/headshelf             /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/z/dm/headshelf     /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/z/dm/headshelf/    /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/z/dm/headshelf/            /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
 
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/headshelf/dm/z /custom/zending 200
 
+# Ending m
+/submit who=chuck mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
+/submit who=Chuck mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
+/submit who=Chuck Mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
+
+/submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple    how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple/   how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple/           how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/colddrinkpurple/dm/chuck-mackerel            how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/colddrinkpurple/dm/chuck-mackerel    how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/colddrinkpurple/dm/chuck-mackerel/   how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/colddrinkpurple/dm/chuck-mackerel/           how=:how /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
+
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=https://faucetnews.netlify.app/user/headshelf/dm/z     /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=https://faucetnews.netlify.app/user/headshelf/dm/z/    /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/headshelf/dm/z/            /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/z/dm/headshelf             /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=https://faucetnews.netlify.app/user/z/dm/headshelf     /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=https://faucetnews.netlify.app/user/z/dm/headshelf/    /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/z/dm/headshelf/            /submit?who=z&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
+
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/headshelf/dm/z /custom/zending 200
+
+# noending
 /submit /custom/noending 200
 
 # Other
