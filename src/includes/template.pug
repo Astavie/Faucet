@@ -79,33 +79,33 @@ html
     title Faucet News
     link(rel='icon', type='image/x-icon', href='/icon.png')
     link(rel='stylesheet', type='text/css', href='/styles/style.css')
-body.bg-gray-200.relative.min-h-screen
-  header
-    block header
-      .w-full.bg-green-600.text-white.p-4.flex
-        .flex-initial
-          h1.font-bold.text-4xl
-            a(href="/") Faucet News
-          p News by the people
-        .flex-initial
-          include faucet.svg
-        .flex-auto
-        .flex-initial.m-2
-          a(href="/user/null/dm").relative.block.w-12.h-12
-            div(class="hover:opacity-0").absolute
-              include mail.svg
-            div(class="opacity-0 hover:opacity-100").absolute
-              include mailfull.svg
-        .flex-initial.m-2
-          a(href="/user/null/notifications").relative.block.w-12.h-12
-            div(class="hover:opacity-0").absolute
-              include alert.svg
-            div(class="opacity-0 hover:opacity-100").absolute
-              include alertfull.svg
-  main
-    .m-8.mb-0.pb-16
-        block content
-  footer
-    block footer
-      .w-full.bg-green-600.text-white.absolute.bottom-0
-        p.text-center.p-1 Copyright © z 2020-2021
+  body.bg-gray-200.relative.min-h-screen
+    header
+      block header
+        .w-full.bg-green-600.text-white.p-4.flex
+          .flex-initial
+            h1.font-bold.text-4xl
+              a(href="/") Faucet News
+            p News by the people
+          .flex-initial
+            include faucet.svg
+          .flex-auto
+          .flex-initial.m-2
+            a(href="/user/null/dm").relative.block.w-12.h-12
+              div(class="hover:opacity-0").absolute
+                include mail.svg
+              div(class="opacity-0 hover:opacity-100").absolute
+                include mailfull.svg
+          .flex-initial.m-2
+            a(href="/user/null/notifications").relative.block.w-12.h-12
+              div(class="hover:opacity-0").absolute
+                include alert.svg
+              div(class="opacity-0 hover:opacity-100").absolute
+                include alertfull.svg
+    main
+      .m-8.mb-0.pb-16
+          block content
+    footer
+      block footer
+        .w-full.bg-green-600.text-white.absolute.bottom-0
+          p.text-center.p-1 Copyright © z 2020-2021
