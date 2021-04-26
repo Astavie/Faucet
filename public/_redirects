@@ -2,9 +2,11 @@
 /custom/* /custom/404.html 404!
 
 # DMs
-/user/marcels-diner/dm/jane-doe /user/jane-doe/dm/marcels-diner 200
-/user/marcels-diner/dm/z        /user/z/dm/marcels-diner        200
-/user/z/dm/headshelf            /user/headshelf/dm/z            200
+/user/marcels-diner/dm/pp-jane-doe         /user/pp-jane-doe/dm/marcels-diner         200
+/user/marcels-diner/dm/z                /user/z/dm/marcels-diner                200
+/user/z/dm/headshelf                    /user/headshelf/dm/z                    200
+/user/pp-jane-doe/dm/chuck-mackerel        /user/chuck-mackerel/dm/pp-jane-doe        200
+/user/colddrinkpurple/dm/chuck-mackerel /user/chuck-mackerel/dm/colddrinkpurple 200
 
 /user/verysus/dm/supraman                   /user/supraman/dm/verysus                   200
 /user/colddrinkblue/dm/colddrinkred         /user/colddrinkred/dm/colddrinkblue         200
@@ -14,25 +16,17 @@
 /user/notcelibate/dm/killjoy                /user/killjoy/dm/notcelibate                200
 
 # Ending
-/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z    /custom/zending 200
-/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z            /custom/zending 200
-/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z/   /custom/zending 200
-/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z/           /custom/zending 200
+/submit who=Z url=:url                                                      how=:how /submit?who=z&url=:url&how=:how
 
-/submit who=z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner    /custom/zending 200
-/submit who=z url=faucetnews.netlify.app/user/z/dm/marcels-diner            /custom/zending 200
-/submit who=z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner/   /custom/zending 200
-/submit who=z url=faucetnews.netlify.app/user/z/dm/marcels-diner/           /custom/zending 200
+/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z    how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z/   how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z/           how=:how /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=:how
 
-/submit who=Z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z    /custom/zending 200
-/submit who=Z url=faucetnews.netlify.app/user/marcels-diner/dm/z            /custom/zending 200
-/submit who=Z url=https://faucetnews.netlify.app/user/marcels-diner/dm/z/   /custom/zending 200
-/submit who=Z url=faucetnews.netlify.app/user/marcels-diner/dm/z/           /custom/zending 200
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/headshelf/dm/z     /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=https://faucetnews.netlify.app/user/headshelf/dm/z/    /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/headshelf/dm/z/            /submit?who=z&url=faucetnews.netlify.app/user/marcels-diner/dm/z&how=faucetnews.netlify.app/user/headshelf/dm/z
 
-/submit who=Z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner    /custom/zending 200
-/submit who=Z url=faucetnews.netlify.app/user/z/dm/marcels-diner            /custom/zending 200
-/submit who=Z url=https://faucetnews.netlify.app/user/z/dm/marcels-diner/   /custom/zending 200
-/submit who=Z url=faucetnews.netlify.app/user/z/dm/marcels-diner/           /custom/zending 200
+/submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/headshelf/dm/z /custom/zending 200
 
 /submit /custom/noending 200
 

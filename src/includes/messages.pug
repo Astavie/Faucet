@@ -1,7 +1,10 @@
 extends /includes/template.pug
 
 mixin firstmessage(comment, author, date)
-  p= comment
+  p
+    each c in comment.split('\n')
+      = c
+      br
   p.text-sm.m-2.mb-0
     | By 
     a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
@@ -9,7 +12,26 @@ mixin firstmessage(comment, author, date)
     span.italic= date
 
 mixin message(comment, author, date)
-  p.mt-4= comment
+  p.mt-4
+    each c in comment.split('\n')
+      = c
+      br
+  p.text-sm.m-2.mb-0
+    | By 
+    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+    |  — 
+    span.italic= date
+
+mixin deleted(author, date)
+  p.italic Message deleted
+  p.text-sm.m-2.mb-0
+    | By 
+    a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author
+    |  — 
+    span.italic= date
+
+mixin deletednext(author, date)
+  p.mt-4.italic Message deleted
   p.text-sm.m-2.mb-0
     | By 
     a(href=`/user/${author.toLowerCase().split(' ').join('-')}` class='underline hover:no-underline').font-bold= author

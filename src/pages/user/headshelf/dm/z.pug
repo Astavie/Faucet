@@ -1,10 +1,5 @@
 extends /includes/messages.pug
 
 block messages
-  p.italic Message deleted
-  p.text-sm.m-2.mb-0
-    | By 
-    a(href=`/user/headshelf` class='hover:underline').font-bold headshelf
-    |  — 
-    span.italic April 21st
+  +firstmessage('I\'ve heard you have a meeting planned with Jane Doe. I\'ve also heard she will try to kill you at that meeting.\nIf you must meet her, I\'d recommend ordering the same food as her and switching the plates when she takes her usual toilet break.', 'headshelf', 'April 21st')
   +message('Thanks for letting me know! I\'ll be careful.' , 'z', 'April 21st')

@@ -1,0 +1,13 @@
+extends /includes/template.pug
+
+block content
+  +profile('pp-jane-doe', 1)
+    +articles
+      +articlepreview('Announcing New Policy', 'pp-jane-doe', 'April 17th')
+    +statuses
+      +status(0, 'I will have a meeting later, to discuss and explain a new policy. We will also share dinner during this time, to maximise work hours.', 'pp-jane-doe', 'April 21st')
+      +status(0, 'I have spent five hours today producing and signing paperwork.', 'pp-jane-doe', 'April 20th')
+      +status(0, 'I have spent twenty-five minutes on a lunch break, eating my favorite gluten-free dish, while listening to a podcast on success.', 'pp-jane-doe', 'April 19th')
+      +status(0, 'I have spent three hours and fifty-eight minutes researching and producing data.', 'pp-jane-doe', 'April 18th')
+      +status(0, 'I have spent two minutes writing this status.', 'pp-jane-doe', 'April 17th')
+      +status(0, 'I have spent one hour writing an article and responding to spam comments.', 'pp-jane-doe', 'April 17th')
