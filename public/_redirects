@@ -60,6 +60,23 @@
 
 /submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/headshelf/dm/z /custom/mending 200
 
+# Ending p
+/submit who=mrsuperassassin url=:url how=:how /submit?who=deathtopeepee&url=:url&how=:how
+
+/submit who=deathtopeepee url=https://faucetnews.netlify.app/user/deathtopeepee    how=:how /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=:how
+/submit who=deathtopeepee url=https://faucetnews.netlify.app/user/deathtopeepee/   how=:how /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=:how
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee/           how=:how /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=:how
+
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=https://faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate     /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=https://faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate/    /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate/            /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=faucetnews.netlify.app/user/notcelibate/dm/deathtopeepee             /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=https://faucetnews.netlify.app/user/notcelibate/dm/deathtopeepee     /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=https://faucetnews.netlify.app/user/notcelibate/dm/deathtopeepee/    /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=faucetnews.netlify.app/user/notcelibate/dm/deathtopeepee/            /submit?who=deathtopeepee&url=faucetnews.netlify.app/user/deathtopeepee&how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate
+
+/submit who=deathtopeepee url=faucetnews.netlify.app/user/deathtopeepee how=faucetnews.netlify.app/user/deathtopeepee/dm/notcelibate /custom/pending 200
+
 # noending
 /submit /custom/noending 200
 
