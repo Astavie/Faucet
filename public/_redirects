@@ -37,10 +37,6 @@
 /submit who=z url=faucetnews.netlify.app/user/marcels-diner/dm/z how=faucetnews.netlify.app/user/headshelf/dm/z /custom/zending 200
 
 # Ending m
-/submit who=chuck+mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
-/submit who=Chuck+mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
-/submit who=Chuck+Mackerel url=:url how=:how /submit?who=chuck-mackerel&url=:url&how=:how
-
 /submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple    how=:how /submit?who=chuck-mackerel&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
 /submit who=chuck-mackerel url=https://faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple/   how=:how /submit?who=chuck-mackerel&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
 /submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple/           how=:how /submit?who=chuck-mackerel&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=:how
@@ -57,7 +53,7 @@
 /submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=https://faucetnews.netlify.app/user/z/dm/headshelf/    /submit?who=chuck-mackerel&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
 /submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/z/dm/headshelf/            /submit?who=chuck-mackerel&url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple&how=faucetnews.netlify.app/user/headshelf/dm/z
 
-/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/headshelf/dm/z /custom/zending 200
+/submit who=chuck-mackerel url=faucetnews.netlify.app/user/chuck-mackerel/dm/colddrinkpurple how=faucetnews.netlify.app/user/headshelf/dm/z /custom/mending 200
 
 # noending
 /submit /custom/noending 200

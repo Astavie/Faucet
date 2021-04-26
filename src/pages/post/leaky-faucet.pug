@@ -4,9 +4,9 @@ block content
   +article('Leaky Faucet', 'null', 'April 26th')
     p I don't know how long this post will stay up, so I'll have to be quick. Faucet News just restricted the access people have to write articles, so I had to hack into the web host to put this article up. Apparently this site isn't very secure, haha, private messages are public to everyone if you know the correct URL.
     p.mt-4.mb-4 Anyway, a senator by the name of Jane Doe was murdered last week, and at the same time a lot of people started showing up on this small website. I'm not sure how you all got here, but I need your help. Jane Doe wasn't that well-liked, but a murder is a murder and we need to figure out who did it. The police are at a loss.
-    p.mb-4 This is where you all come in. I suspect this website has all the information you need to figure out who did it. Once you do, please fill in the details in the form below and submit it.
+    p.mb-4 This is where you all come in. I suspect someone on this website did it, and that the site has all the information you need to figure out who that is. Once you figure it out, please fill in the details in the form below and submit it.
     form(action="/submit" method="get")
-      label(for="who").block.text-sm.font-bold.mb-1 The name or alias of the person who did it.
+      label(for="who").block.text-sm.font-bold.mb-1 The alias of the person who did it.
       input#who(name="who").shadow.appearance-none.border.rounded.mb-2.max-w-full.w-96.py-1.px-2.border-gray-400
       label(for="url").block.text-sm.font-bold.mb-1 The URL of the webpage that makes it clear who did it, by either containing information about who was with Jane Doe or about who was planning an assassination.
       input#how(name="url").shadow.appearance-none.border.rounded.mb-2.max-w-full.w-96.py-1.px-2.border-gray-400
