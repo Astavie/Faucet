@@ -15,6 +15,10 @@
 /user/deathtoproduction/dm/deathtopeepee    /user/deathtopeepee/dm/deathtoproduction    200
 /user/notcelibate/dm/killjoy                /user/killjoy/dm/notcelibate                200
 
+/user/killjoy/dm/pm-me-dogs     /user/pm-me-dogs/dm/killjoy     200
+/user/notcelibate/dm/pm-me-dogs /user/pm-me-dogs/dm/notcelibate 200
+/user/supraman/dm/pm-me-dogs    /user/pm-me-dogs/dm/supraman    200
+
 # Ending z
 /submit who=Z url=:url how=:how /submit?who=z&url=:url&how=:how
 
